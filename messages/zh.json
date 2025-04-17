@@ -1,0 +1,50 @@
+{
+  "Header": {
+    "title": "huyixi's 应用程序",
+    "subtitle": "一系列直接在浏览器中运行的免费、注重隐私的网络应用程序。"
+  },
+  "Footer": {
+    "text": "所有应用程序均为开放源代码，可在浏览器中本地处理数据。"
+  },
+  "Common": {
+    "tryIt": "试试看",
+    "source": "源码"
+  },
+  "Category": {
+    "all": "全部",
+    "image": "图片",
+    "text": "文本",
+    "game": "游戏",
+    "life": "生活"
+  },
+  "Apps": {
+    "nuxtFaviconGenerator": {
+      "title": "Nuxt 网站图标生成器",
+      "description": "为你的 Nuxt.js 项目生成网站图标"
+    },
+    "listDiff": {
+      "title": "列表对比工具",
+      "description": "比较两个列表并找出差异"
+    },
+    "strawberrySchedule": {
+      "title": "草莓番茄钟",
+      "description": "基于番茄工作法的高效计时器"
+    },
+    "ticTacToe": {
+      "title": "井字棋",
+      "description": "经典井字棋游戏"
+    },
+    "timeProgress": {
+      "title": "时间进度",
+      "description": "可视化你的年度进度"
+    },
+    "nineHundredMonths": {
+      "title": "900个月人生日历",
+      "description": "可视化人类900个月生命周期的日历"
+    },
+    "comingSoon": {
+      "title": "即将上线",
+      "description": "新应用即将推出"
+    }
+  }
+}

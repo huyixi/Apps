@@ -1,0 +1,50 @@
+{
+  "Header": {
+    "title": "huyixi's Apps",
+    "subtitle": "A collection of free, privacy-focused web applications that run directly in your browser."
+  },
+  "Footer": {
+    "text": "All apps are open source and process data locally in your browser."
+  },
+  "Common": {
+    "tryIt": "Try it",
+    "source": "Source"
+  },
+  "Category": {
+    "all": "All",
+    "image": "Image",
+    "text": "Text",
+    "game": "Game",
+    "life": "Life"
+  },
+  "Apps": {
+    "nuxtFaviconGenerator": {
+      "title": "Nuxt Favicon Generator",
+      "description": "Generate favicons for your Nuxt.js projects"
+    },
+    "listDiff": {
+      "title": "List Diff",
+      "description": "Compare two lists and find differences"
+    },
+    "strawberrySchedule": {
+      "title": "Strawberry Schedule",
+      "description": "A productivity timer based on the Pomodoro technique"
+    },
+    "ticTacToe": {
+      "title": "Tic Tac Toe",
+      "description": "Classic Tic Tac Toe game"
+    },
+    "timeProgress": {
+      "title": "Time Progress",
+      "description": "Visualize your year progress"
+    },
+    "nineHundredMonths": {
+      "title": "900 Months",
+      "description": "Life calendar visualizing 900 months of human life"
+    },
+    "comingSoon": {
+      "title": "Coming Soon",
+      "description": "New apps coming soon"
+    }
+  }
+}
