@@ -34,7 +34,7 @@ export default function Apps({ params }: { params: Promise<PageParams> }) {
       : apps.filter((app) => app.categories.includes(selectedCategory));
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-gray-50">
       <Header t={t} currentLang={lang} />
       <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-grow">
         <CategoryTabs
@@ -42,10 +42,8 @@ export default function Apps({ params }: { params: Promise<PageParams> }) {
           setSelectedCategory={setSelectedCategory}
           t={t}
         />
-
         <AppGrid apps={filteredApps} t={t} />
       </main>
-
       <Footer t={t} />
     </div>
   );
