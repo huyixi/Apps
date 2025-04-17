@@ -21,6 +21,9 @@ export default async function LocaleLayout({
   if (!hasLocale(routing.locales, locale)) notFound();
   return (
     <html lang={locale}>
+      <head>
+        <meta name="apple-mobile-web-app-title" content="huyixi's Apps" />
+      </head>
       <body>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
